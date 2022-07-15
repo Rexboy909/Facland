@@ -59,6 +59,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "protectionfourpickaxe"
+    },
+    {
+      "name": "InfinitestoneRightclicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitestone_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infinitestone",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitestone"
     }
   ],
   "variable_elements": [],
@@ -66,6 +90,7 @@
   "language_map": {
     "en_us": {
       "item.facland_four.infinitepearl": "Infinitepearl",
+      "item.facland_four.infinitestone": "Infinity Stone",
       "item.facland_four.protectionfourpickaxe": "Protection 4 Pickaxe"
     }
   },
