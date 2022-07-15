@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.faclandfour.item.StarRodItem;
 import net.mcreator.faclandfour.item.ProtectionfourpickaxeItem;
 import net.mcreator.faclandfour.item.KirbyscakeItem;
 import net.mcreator.faclandfour.item.KirbygunammoItem;
@@ -27,4 +28,5 @@ public class FaclandFourModItems {
 	public static final RegistryObject<Item> KIRBYGUNAMMO = REGISTRY.register("kirbygunammo", () -> new KirbygunammoItem());
 	public static final RegistryObject<Item> KIRBYGUN = REGISTRY.register("kirbygun", () -> new KirbygunItem());
 	public static final RegistryObject<Item> KIRBYSCAKE = REGISTRY.register("kirbyscake", () -> new KirbyscakeItem());
+	public static final RegistryObject<Item> STAR_ROD = REGISTRY.register("star_rod", () -> new StarRodItem());
 }

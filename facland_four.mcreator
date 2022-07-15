@@ -171,12 +171,37 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "kirbyscake"
+    },
+    {
+      "name": "StarRodLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_rod_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarRod",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_rod"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.facland_four.star_rod": "Star Rod",
       "item.facland_four.kirbygun": "Kirby Gun",
       "item.facland_four.kirbyscake": "Kirbyscake",
       "item.facland_four.infinitepearl": "Infinitepearl",
