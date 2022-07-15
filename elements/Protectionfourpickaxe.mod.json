@@ -1,0 +1,30 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_pickaxe",
+    "customModelName": "Normal",
+    "name": "Protection 4 Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "ProtectionfourpickaxeBlockDestroyedWithTool"
+    }
+  }
+}

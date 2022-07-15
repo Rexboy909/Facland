@@ -35,13 +35,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinitepearl"
+    },
+    {
+      "name": "ProtectionfourpickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protectionfourpickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Protectionfourpickaxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protectionfourpickaxe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.facland_four.infinitepearl": "Infinitepearl"
+      "item.facland_four.infinitepearl": "Infinitepearl",
+      "item.facland_four.protectionfourpickaxe": "Protection 4 Pickaxe"
     }
   },
   "foldersRoot": {

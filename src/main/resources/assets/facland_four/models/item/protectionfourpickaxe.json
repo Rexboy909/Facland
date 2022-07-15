@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "facland_four:items/diamond_pickaxe"
+  }
+}
