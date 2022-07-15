@@ -83,14 +83,80 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinitestone"
+    },
+    {
+      "name": "Kirbygunammo",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirbygunammo"
+    },
+    {
+      "name": "Kirbygun",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirbygun"
+    },
+    {
+      "name": "KirbygunProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirbygun_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KirbygunRangedItemUsed",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirbygun_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.facland_four.kirbygun": "Kirby Gun",
       "item.facland_four.infinitepearl": "Infinitepearl",
       "item.facland_four.infinitestone": "Infinity Stone",
+      "item.facland_four.kirbygunammo": ".50 APHEI Bullet",
       "item.facland_four.protectionfourpickaxe": "Protection 4 Pickaxe"
     }
   },

@@ -16,5 +16,6 @@ public class FaclandFourModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(FaclandFourModEntities.INFINITEPEARL.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(FaclandFourModEntities.KIRBYGUN.get(), ThrownItemRenderer::new);
 	}
 }
