@@ -1,0 +1,69 @@
+{
+  "mod_elements": [
+    {
+      "name": "InfinitepearlProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitepearl_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infinitepearl",
+      "type": "rangeditem",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitepearl"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.facland_four.infinitepearl": "Infinitepearl"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "facland_four",
+    "modName": "Facland_four",
+    "version": "1.0.0",
+    "author": "uliss, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.faclandfour",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
