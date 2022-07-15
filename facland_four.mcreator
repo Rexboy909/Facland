@@ -147,6 +147,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "KirbyscakePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirbyscake_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kirbyscake",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirbyscake"
     }
   ],
   "variable_elements": [],
@@ -154,6 +178,7 @@
   "language_map": {
     "en_us": {
       "item.facland_four.kirbygun": "Kirby Gun",
+      "item.facland_four.kirbyscake": "Kirbyscake",
       "item.facland_four.infinitepearl": "Infinitepearl",
       "item.facland_four.infinitestone": "Infinity Stone",
       "item.facland_four.kirbygunammo": ".50 APHEI Bullet",
