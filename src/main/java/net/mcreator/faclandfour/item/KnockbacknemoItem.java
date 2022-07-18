@@ -19,7 +19,7 @@ public class KnockbacknemoItem extends SwordItem {
 	public KnockbacknemoItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 0;
 			}
 
 			public float getSpeed() {
@@ -41,7 +41,7 @@ public class KnockbacknemoItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 	}
 
 	@Override
