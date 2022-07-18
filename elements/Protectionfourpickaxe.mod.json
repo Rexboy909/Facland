@@ -23,6 +23,9 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "ProtectionfourpickaxeToolInInventoryTick"
+    },
     "onBlockDestroyedWithTool": {
       "name": "ProtectionfourpickaxeBlockDestroyedWithTool"
     }

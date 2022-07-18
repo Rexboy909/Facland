@@ -195,6 +195,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "star_rod"
+    },
+    {
+      "name": "KnockbacknemoToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockbacknemo_tool_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knockbacknemo",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knockbacknemo"
+    },
+    {
+      "name": "ProtectionfourpickaxeToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protectionfourpickaxe_tool_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -207,7 +247,8 @@
       "item.facland_four.infinitepearl": "Infinitepearl",
       "item.facland_four.infinitestone": "Infinity Stone",
       "item.facland_four.kirbygunammo": ".50 APHEI Bullet",
-      "item.facland_four.protectionfourpickaxe": "Protection 4 Pickaxe"
+      "item.facland_four.protectionfourpickaxe": "Protection 4 Pickaxe",
+      "item.facland_four.knockbacknemo": "Knockback Nemo"
     }
   },
   "foldersRoot": {

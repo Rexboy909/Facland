@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.faclandfour.item.StarRodItem;
 import net.mcreator.faclandfour.item.ProtectionfourpickaxeItem;
+import net.mcreator.faclandfour.item.KnockbacknemoItem;
 import net.mcreator.faclandfour.item.KirbyscakeItem;
 import net.mcreator.faclandfour.item.KirbygunammoItem;
 import net.mcreator.faclandfour.item.KirbygunItem;
@@ -29,4 +30,5 @@ public class FaclandFourModItems {
 	public static final RegistryObject<Item> KIRBYGUN = REGISTRY.register("kirbygun", () -> new KirbygunItem());
 	public static final RegistryObject<Item> KIRBYSCAKE = REGISTRY.register("kirbyscake", () -> new KirbyscakeItem());
 	public static final RegistryObject<Item> STAR_ROD = REGISTRY.register("star_rod", () -> new StarRodItem());
+	public static final RegistryObject<Item> KNOCKBACKNEMO = REGISTRY.register("knockbacknemo", () -> new KnockbacknemoItem());
 }

@@ -13,8 +13,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.faclandfour.procedures.ProtectionfourpickaxeToolInInventoryTickProcedure;
 import net.mcreator.faclandfour.procedures.ProtectionfourpickaxeBlockDestroyedWithToolProcedure;
 
 public class ProtectionfourpickaxeItem extends PickaxeItem {
@@ -61,6 +63,12 @@ public class ProtectionfourpickaxeItem extends PickaxeItem {
 	@Override
 	public ItemStack getContainerItem(ItemStack itemstack) {
 		return new ItemStack(this);
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		ProtectionfourpickaxeToolInInventoryTickProcedure.execute(itemstack);
 	}
 
 	@Override
