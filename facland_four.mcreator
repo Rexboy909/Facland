@@ -235,6 +235,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Enderdragondies",
+      "type": "loottable",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderdragondies"
     }
   ],
   "variable_elements": [],

@@ -7,7 +7,7 @@ public class KnockbacknemoToolInInventoryTickProcedure {
 	public static void execute(ItemStack itemstack) {
 		if (itemstack.getOrCreateTag().getBoolean("Knockback_nemo_enchanted") == false) {
 			itemstack.getOrCreateTag().putBoolean("Knockback_nemo_enchanted", (true));
-			(itemstack).enchant(Enchantments.KNOCKBACK, 10);
+			(itemstack).enchant(Enchantments.KNOCKBACK, 50);
 		}
 	}
 }
