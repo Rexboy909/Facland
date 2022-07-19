@@ -243,6 +243,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "enderdragondies"
+    },
+    {
+      "name": "Kirbygunammomake",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kirbygunammomake"
     }
   ],
   "variable_elements": [],
