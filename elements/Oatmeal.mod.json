@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_otherside",
+    "name": "1, 2 Oatmeal",
+    "description": "1, 2 oatmeal",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:onerwooatmeal"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

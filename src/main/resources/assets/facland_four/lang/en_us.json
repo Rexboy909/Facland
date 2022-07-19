@@ -1,7 +1,10 @@
 {
+  "subtitles.onerwooatmeal": "oatmeal",
+  "item.facland_four.oatmeal": "1, 2 Oatmeal",
   "item.facland_four.star_rod": "Star Rod",
   "item.facland_four.kirbygun": "Kirby Gun",
   "item.facland_four.kirbyscake": "Kirbyscake",
+  "item.facland_four.oatmeal.desc": "1, 2 oatmeal",
   "item.facland_four.infinitepearl": "Infinitepearl",
   "item.facland_four.infinitestone": "Infinity Stone",
   "item.facland_four.kirbygunammo": ".50 APHEI Bullet",

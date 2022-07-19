@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "facland_four:items/music_disc_otherside"
+  }
+}

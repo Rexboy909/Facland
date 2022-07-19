@@ -251,15 +251,35 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "kirbygunammomake"
+    },
+    {
+      "name": "Oatmeal",
+      "type": "musicdisc",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oatmeal"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "onerwooatmeal",
+      "files": [
+        "bgm"
+      ],
+      "category": "record",
+      "subtitle": "oatmeal"
+    }
+  ],
   "language_map": {
     "en_us": {
+      "subtitles.onerwooatmeal": "oatmeal",
+      "item.facland_four.oatmeal": "1, 2 Oatmeal",
       "item.facland_four.star_rod": "Star Rod",
       "item.facland_four.kirbygun": "Kirby Gun",
       "item.facland_four.kirbyscake": "Kirbyscake",
+      "item.facland_four.oatmeal.desc": "1, 2 oatmeal",
       "item.facland_four.infinitepearl": "Infinitepearl",
       "item.facland_four.infinitestone": "Infinity Stone",
       "item.facland_four.kirbygunammo": ".50 APHEI Bullet",

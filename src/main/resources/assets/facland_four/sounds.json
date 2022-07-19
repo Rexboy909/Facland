@@ -1,0 +1,12 @@
+{
+  "onerwooatmeal": {
+    "category": "record",
+    "subtitle": "subtitles.onerwooatmeal",
+    "sounds": [
+      {
+        "name": "facland_four:bgm",
+        "stream": true
+      }
+    ]
+  }
+}
