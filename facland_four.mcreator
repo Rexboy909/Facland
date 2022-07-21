@@ -259,6 +259,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "oatmeal"
+    },
+    {
+      "name": "Treehousestructure",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treehousestructure"
     }
   ],
   "variable_elements": [],

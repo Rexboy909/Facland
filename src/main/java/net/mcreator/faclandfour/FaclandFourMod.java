@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.faclandfour.init.FaclandFourModItems;
+import net.mcreator.faclandfour.init.FaclandFourModFeatures;
 import net.mcreator.faclandfour.init.FaclandFourModEntities;
 
 import java.util.function.Supplier;
@@ -48,6 +49,8 @@ public class FaclandFourMod {
 
 		FaclandFourModItems.REGISTRY.register(bus);
 		FaclandFourModEntities.REGISTRY.register(bus);
+
+		FaclandFourModFeatures.REGISTRY.register(bus);
 
 	}
 
